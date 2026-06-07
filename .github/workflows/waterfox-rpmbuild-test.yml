@@ -8,7 +8,7 @@ env:
   REPO_DEV: BrowserWorks
   REPO_NAME: waterfox
   RELEASES_CDN: https://cdn.waterfox.com/waterfox/releases/version/Linux_x86_64/waterfox-version.tar.bz2
-  SPEC: $GITHUB_WORKSPACE/specs/waterfox.spec
+  SPEC: $GITHUB_WORKSPACE/specs/waterfox-compile.spec
   VENDOR: $GITHUB_WORKSPACE/vendor.js
   DESKTOP: $GITHUB_WORKSPACE/waterfox.desktop
   DISTR: $GITHUB_WORKSPACE/distribution.ini
