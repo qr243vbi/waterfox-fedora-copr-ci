@@ -67,8 +67,6 @@ BuildRequires: pkgconfig(nspr) >= 4.35
 BuildRequires: pkgconfig(nss) >= 3.101
 BuildRequires: pkgconfig(gl)
 
-ExclusiveArch:  x86_64
-
 Obsoletes:      %{app} <= %{version}
 
 %description
