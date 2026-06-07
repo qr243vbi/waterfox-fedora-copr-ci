@@ -16,7 +16,7 @@ env:
   APPDATA: $GITHUB_WORKSPACE/waterfox-browser.appdata.xml
 jobs:
   waterfox-rpm-build-test:
-    runs-on: ubuntu-latest-arm64
+    runs-on: ubuntu-latest-arm
     container: fedora:latest
     steps:
       - name: Checkout local
